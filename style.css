@@ -6,8 +6,15 @@ h1{
     color:green;
     font-size:xx-large
 }
-.navbar{
+.navbar-left{
     height: 10%;
     width:10%;
     background-color:black;
+    justify-content: flex-start;
+}
+.navbar-right{
+    height: 10%;
+    width:10%;
+    background-color:black;
+    justify-content: flex-end;
 }
