@@ -1,24 +1,26 @@
-.body{
+body{
     background-color:azure;
-    
+    padding: 0;
+    margin: 0;
 }
-.h1{
-    color:green;
+h1{ 
     font-size:xx-large
 }
-.p{
-    color:green;
+p{
+   
     font-size:xx-large
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
 }
 .navbar-left{
-    height: 10%;
-    width:10%;
-    background-color:black;
-    justify-content: flex-start;
+   margin-left: 2%;
 }
 .navbar-right{
-    height: 10%;
-    width:10%;
-    background-color:black;
-    justify-content: flex-end;
+    margin-right: 2%;
 }
