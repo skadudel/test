@@ -1,16 +1,20 @@
+/* makes it so that there is no tiny area between the edge of the screen and the content */
 body{
     background-color:azure;
     padding: 0;
     margin: 0;
+
 }
+/* sets text size */
 h1{ 
     font-size:xx-large
 }
+/* sets text size */
 p{
    
     font-size:xx-large
 }
-
+/* the box that contains the boxes with text so that the text is properly aligned */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,9 +22,11 @@ p{
     background-color: black;
     color: white;
 }
+/* No hugging the edge for the text */
 .navbar-left{
    margin-left: 2%;
 }
+/* No hugging the edge for the text */
 .navbar-right{
     margin-right: 2%;
 }
