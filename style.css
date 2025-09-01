@@ -1,18 +1,26 @@
 /* makes it so that there is no tiny area between the edge of the screen and the content */
 body{
-    background-color:azure;
+    background-color:whitesmoke;
     padding: 0;
     margin: 0;
 
 }
 /* sets text size */
 h1{ 
-    font-size:xx-large
+    font-size:x-large
 }
 /* sets text size */
 p{
    
-    font-size:xx-large
+    font-size:x-large
+}
+/* sets text size */
+h2{
+    font-size: xx-large;
+}
+/* sets text size */
+h3{
+    font-size: medium;
 }
 /* the box that contains the boxes with text so that the text is properly aligned */
 .navbar {
@@ -21,6 +29,9 @@ p{
     align-items: center;
     background-color: black;
     color: white;
+    /* gives a litle space between it and the other stuff on the top and the bottom */
+    margin-top: 1px;
+    margin-bottom: 2px;
 }
 /* No hugging the edge for the text */
 .navbar-left{
@@ -30,3 +41,33 @@ p{
 .navbar-right{
     margin-right: 2%;
 }
+/* gives flex property and makes the backgroundcolor the correct color */
+.imageAndSidetext{
+    display: flex;
+    background-color: whitesmoke;
+}
+/* aligns the side text */
+.sidetext{
+    height: 469px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* aligns the image of Daniil */
+.image{
+    height: 469px;
+    width: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* makes the image of Daniil round */
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
